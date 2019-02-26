@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@types/dragula": "^2.1.34",
-    "dragula": "git+https://git@github.com/qubiack/dragula.git"
+    "dragula": "git://github.com/qubiack/dragula.git#e6903d0a963f1f505c1947f255fd0e7aec65c24f"
   },
   "peerDependencies": {
     "@angular/core": ">=6.0.0",
