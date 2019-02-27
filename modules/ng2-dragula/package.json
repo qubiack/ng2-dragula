@@ -1,7 +1,7 @@
 {
   "name": "@supermemo/ng2-dragula",
   "private": false,
-  "version": "2.1.5",
+  "version": "2.1.10",
   "description": "Simple drag and drop with dragula",
   "repository": {
     "type": "git",
@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@types/dragula": "^2.1.34",
-    "dragula": "git://github.com/qubiack/dragula.git#e6903d0a963f1f505c1947f255fd0e7aec65c24f"
+    "dragula": "git://github.com/qubiack/dragula.git#ab50a04ded085d9c7201ef65000e2a00892d1ace"
   },
   "peerDependencies": {
     "@angular/core": ">=6.0.0",
@@ -89,11 +89,6 @@
   "typings": "./dist/supermemo-ng2-dragula.d.ts",
   "metadata": "./dist/supermemo-ng2-dragula.metadata.json",
   "sideEffects": false,
-  "files": [
-    "dist",
-    "dist/**",
-    "README.md"
-  ],
   "publishConfig":  {
     "access": "public"
   }
