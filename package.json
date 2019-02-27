@@ -11,6 +11,7 @@
     "watch": "yarn lerna run watch --parallel --stream"
   },
   "devDependencies": {
+    "lerna": "^2.11.0",
     "chokidar-cli": "1.2.0",
     "conventional-changelog-cli": "1.2.0",
     "conventional-github-releaser": "1.1.3",
@@ -20,28 +21,11 @@
     "gh-pages": "0.12.0",
     "gitignore-to-glob": "0.3.0",
     "google-code-prettify": "1.0.5",
-    "lerna": "^2.11.0",
     "markdown-loader": "github:valorkin/markdown-loader",
     "marked": "0.3.6",
     "npm-run-all": "4.0.0",
     "require-dir": "0.3.1",
     "webdriver-manager": "11.1.1"
   },
-  "workspaces": [
-    "modules/*"
-  ],
-  "name": "ng2-dragula",
-  "description": "[![npm version](https://badge.fury.io/js/ng2-dragula.svg)](http://badge.fury.io/js/ng2-dragula) [![npm downloads](https://img.shields.io/npm/dm/ng2-dragula.svg)](https://npmjs.org/ng2-dragula) [![slack](https://ngx-slack.herokuapp.com/badge.svg)](https://ngx-slack.herokuapp.com) [![Build Status](https://travis-ci.org/valor-software/ng2-dragula.svg?branch=master)](https://travis-ci.org/valor-software/ng2-dragula) [![codecov](https://codecov.io/gh/valor-software/ng2-dragula/branch/master/graph/badge.svg)](https://codecov.io/gh/valor-software/ng2-dragula)",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qubiack/ng2-dragula.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/qubiack/ng2-dragula/issues"
-  },
-  "homepage": "https://github.com/qubiack/ng2-dragula#readme"
+  "workspaces": [ "modules/*" ]
 }
