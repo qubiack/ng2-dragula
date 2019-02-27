@@ -1,11 +1,11 @@
 {
-  "name": "ng2-dragula",
+  "name": "@supermemo/ng2-dragula",
   "private": false,
   "version": "2.1.1",
   "description": "Simple drag and drop with dragula",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valor-software/ng2-dragula.git"
+    "url": "git+https://github.com/qubiack/ng2-dragula.git"
   },
   "keywords": [
     "angular",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/valor-software/ng2-dragula/issues"
   },
-  "homepage": "https://github.com/valor-software/ng2-dragula#readme",
+  "homepage": "https://github.com/qubiack/ng2-dragula#readme",
   "scripts": {
     "clean": "rimraf dist",
     "build": "ng-packagr",
@@ -79,18 +79,21 @@
     "typescript": "~2.7.2",
     "zone.js": "^0.8.26"
   },
-  "main": "./dist/bundles/ng2-dragula.umd.js",
-  "module": "./dist/fesm5/ng2-dragula.js",
-  "es2015": "./dist/fesm2015/ng2-dragula.js",
-  "esm5": "./dist/esm5/ng2-dragula.js",
-  "esm2015": "./dist/esm2015/ng2-dragula.js",
-  "fesm5": "./dist/fesm5/ng2-dragula.js",
-  "fesm2015": "./dist/fesm2015/ng2-dragula.js",
-  "typings": "./dist/ng2-dragula.d.ts",
-  "metadata": "./dist/ng2-dragula.metadata.json",
+  "main": "./dist/bundles/supermemo-ng2-dragula.umd.js",
+  "module": "./dist/fesm5/supermemo-ng2-dragula.js",
+  "es2015": "./dist/fesm2015/supermemo-ng2-dragula.js",
+  "esm5": "./dist/esm5/supermemo-ng2-dragula.js",
+  "esm2015": "./dist/esm2015/supermemo-ng2-dragula.js",
+  "fesm5": "./dist/fesm5/supermemo-ng2-dragula.js",
+  "fesm2015": "./dist/fesm2015/supermemo-ng2-dragula.js",
+  "typings": "./dist/supermemo-ng2-dragula.d.ts",
+  "metadata": "./dist/supermemo-ng2-dragula.metadata.json",
   "sideEffects": false,
   "files": [
     "dist",
     "README.md"
-  ]
+  ],
+  "publishonfig": {
+    "access": "public"
+  }
 }
