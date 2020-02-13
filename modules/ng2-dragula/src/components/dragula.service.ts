@@ -147,7 +147,6 @@ export class DragulaService {
    * Note: formerly known as `setOptions`
    */
   public createGroup<T = any>(name: string, options: DragulaOptions<T>): Group {
-    console.log(name, options);
     return this.add(new Group(
       name,
       this.drakeFactory.build([], options),
