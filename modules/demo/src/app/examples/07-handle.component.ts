@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { DragulaService } from "ng2-dragula";
+import { DragulaService } from "@supermemo/ng2-dragula";
 
 let code = `
 <div class="container" dragula="HANDLES" id="left">

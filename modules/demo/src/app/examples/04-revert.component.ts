@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { DragulaService } from "ng2-dragula";
+import { DragulaService } from "@supermemo/ng2-dragula";
 
 let code = `
 <div dragula="REVERT"></div>
@@ -21,7 +21,8 @@ export class RevertComponent {
   code = code;
   public constructor(private dragulaService:DragulaService) {
     dragulaService.createGroup("REVERT", {
-      revertOnSpill: true
+      revertOnSpill: true,
+      animation: 250
     });
   }
 }

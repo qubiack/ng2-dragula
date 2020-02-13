@@ -7,4 +7,5 @@ export interface DragulaOptions<T = any> extends OriginalOptions {
      *  ensure `x !== copyItem(x)` -- so you must create a *new* object.
      **/
     copyItem?: (item: T) => T;
+    animation?: number;
 }
