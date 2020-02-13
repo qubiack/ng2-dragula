@@ -11,14 +11,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package undefined
 
-<a name="2.1.13"></a>
-## [2.1.13](https://github.com/alienwlkp/ng2-dragula/compare/v2.1.12...v2.1.13) (2020-02-13)
-
-
-
-
-**Note:** Version bump only for package undefined
-
 <a name="2.1.1"></a>
 ## [2.1.1](https://github.com/valor-software/ng2-dragula/compare/v2.1.0...v2.1.1) (2018-11-01)
 
