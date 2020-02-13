@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.1.11"></a>
+## [2.1.11](https://github.com/qubiack/ng2-dragula/compare/v2.1.13...v2.1.11) (2020-02-13)
+
+
+
+
+**Note:** Version bump only for package @supermemo/ng2-dragula
+
 <a name="2.1.1"></a>
 ## [2.1.1](https://github.com/valor-software/ng2-dragula/compare/v2.1.0...v2.1.1) (2018-11-01)
 
